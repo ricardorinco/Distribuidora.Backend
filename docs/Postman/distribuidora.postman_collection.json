@@ -1,0 +1,481 @@
+{
+	"info": {
+		"name": "Distribuidora",
+		"_postman_id": "8e9df85c-3094-eb76-71d9-537636e2d521",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Atendimento",
+			"description": "",
+			"item": [
+				{
+					"name": "Buscar Atendimentos por Fornecedores",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"IdEstado\": 26,\n\t\"Descricao\": \"Inclusão de Teste\",\n\t\"Ativo\": true\n}"
+						},
+						"url": {
+							"raw": "http://localhost:51530/api/atendimentos/buscar-por-fornecedor/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"atendimentos",
+								"buscar-por-fornecedor",
+								"2"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Atendimento por Fornecedor e Regiao",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:51530/api/atendimentos/buscar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"atendimentos",
+								"buscar",
+								"1"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Atendimentos por Fornecedores e Regiões",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:51530/api/atendimentos/buscar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"atendimentos",
+								"buscar"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Estados",
+			"description": "",
+			"item": [
+				{
+					"name": "Buscar Estados",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"IdEstado\": 26,\n\t\"Descricao\": \"Inclusão de Teste\",\n\t\"Ativo\": true\n}"
+						},
+						"url": {
+							"raw": "http://localhost:51530/api/estados/buscar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"estados",
+								"buscar"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Estados por Id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"IdEstado\": 26,\n\t\"Descricao\": \"Inclusão de Teste\",\n\t\"Ativo\": true\n}"
+						},
+						"url": {
+							"raw": "http://localhost:51530/api/estados/buscar/26",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"estados",
+								"buscar",
+								"26"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Fornecedores",
+			"description": "",
+			"item": [
+				{
+					"name": "Buscar Fornecedores",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"IdEstado\": 26,\n\t\"Descricao\": \"Inclusão de Teste\",\n\t\"Ativo\": true\n}"
+						},
+						"url": {
+							"raw": "http://localhost:51530/api/fornecedores/buscar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"fornecedores",
+								"buscar"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Fornecedor por Id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"IdEstado\": 26,\n\t\"Descricao\": \"Inclusão de Teste\",\n\t\"Ativo\": true\n}"
+						},
+						"url": {
+							"raw": "http://localhost:51530/api/fornecedores/buscar/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"fornecedores",
+								"buscar",
+								"2"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Fornecedores e Regiões",
+			"description": "",
+			"item": [
+				{
+					"name": "Buscar Fornecedores e Regiões",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"IdEstado\": 26,\n\t\"Descricao\": \"Inclusão de Teste\",\n\t\"Ativo\": true\n}"
+						},
+						"url": {
+							"raw": "http://localhost:51530/api/fornecedores-regioes/buscar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"fornecedores-regioes",
+								"buscar"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Fornecedor e Região por Id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"IdEstado\": 26,\n\t\"Descricao\": \"Inclusão de Teste\",\n\t\"Ativo\": true\n}"
+						},
+						"url": {
+							"raw": "http://localhost:51530/api/fornecedores-regioes/buscar/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"fornecedores-regioes",
+								"buscar",
+								"2"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Criar Fornecedor e Região",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"IdFornecedorRegiao\": 4,\n\t\"IdFornecedor\": 5,\n\t\"IdRegiao\": 7\n}"
+						},
+						"url": {
+							"raw": "http://localhost:51530/api/fornecedores-regioes/criar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"fornecedores-regioes",
+								"criar"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar Fornecedor e Região",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:51530/api/fornecedores-regioes/deletar/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"fornecedores-regioes",
+								"deletar",
+								"5"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Regiões",
+			"description": "",
+			"item": [
+				{
+					"name": "Buscar Regiões",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:51530/api/regioes/buscar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"regioes",
+								"buscar"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Região por Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:51530/api/regioes/buscar/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"regioes",
+								"buscar",
+								"3"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Criar Região",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"IdEstado\": 4,\n\t\"Descricao\": \"Uhuuuuuuuuuuuu :D\",\n\t\"Ativo\": false\n}"
+						},
+						"url": {
+							"raw": "http://localhost:51530/api/regioes/criar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"regioes",
+								"criar"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar Região",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"IdEstado\": 26,\n\t\"Descricao\": \"Inclusão de Teste\",\n\t\"Ativo\": false\n}"
+						},
+						"url": {
+							"raw": "http://localhost:51530/api/regioes/atualizar/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51530",
+							"path": [
+								"api",
+								"regioes",
+								"atualizar",
+								"7"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
